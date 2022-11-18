@@ -1,14 +1,25 @@
-#ifndef PRINTF_H
-# define PRINTF_H
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: bel-kase <bel-kase@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/11/18 22:08:13 by bel-kase          #+#    #+#             */
+/*   Updated: 2022/11/18 22:40:41 by bel-kase         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdio.h>
-#include <stdarg.h>
-#include <fcntl.h>
+#ifndef FT_PRINTF_H
+# define FT_PRINTF_H
 
-int     ft_printf(const char *, ...);
+# include <unistd.h>
+# include <stdio.h>
+# include <stdarg.h>
+
+int	ft_printf(const char *str, ...);
 int	ft_putchar(char c);
 int	ft_putstr(char *str);
 int	ft_putnbr(long long nb);
-int    ft_xoxo(unsigned long int nb, char *t, int *offset);
+void	ft_xoxo(unsigned long int nb, char *t, int *offset);
 #endif
