@@ -6,7 +6,7 @@
 /*   By: bel-kase <bel-kase@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/18 22:08:25 by bel-kase          #+#    #+#             */
-/*   Updated: 2022/11/18 22:43:09 by bel-kase         ###   ########.fr       */
+/*   Updated: 2022/11/19 16:15:48 by bel-kase         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int	ft_putnbr(long long nb)
 {
-	unsigned long int		n;
-	int		offset;
+	unsigned long int	n;
+	int					offset;
 
 	offset = 0;
 	if (nb < 0)

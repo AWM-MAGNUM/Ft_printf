@@ -6,7 +6,7 @@
 /*   By: bel-kase <bel-kase@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/18 21:59:29 by bel-kase          #+#    #+#             */
-/*   Updated: 2022/11/18 22:39:45 by bel-kase         ###   ########.fr       */
+/*   Updated: 2022/11/20 18:21:22 by bel-kase         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,14 +64,3 @@ int	ft_printf(const char *str, ...)
 	va_end(ptr);
 	return (offset);
 }
-
-// int    main()
-// {
-//        char *ptr;
-//        //printf("%d\n",printf("%p\n",ptr));
-//        printf("%d",ft_printf("%p\n",ptr));
-//        // char z = ft_printf("%x\n",0);
-//        // printf("--->%x\n",z);
-//        // char d = printf("%x\n",0);
-//        // printf("--->%x\n",d);
-// }
